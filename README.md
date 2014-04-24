@@ -1,4 +1,4 @@
 Phonebook
 =========
-An application which implements completely the functionality of an arithmetic calculator.
-It was developed using Java RMI.
+A web application which implements a phonebook that stores information in a MySQL database.
+It was developed using Java Servlet, JSP and JDBC.
