@@ -4,38 +4,67 @@
  * and open the template in the editor.
  */
 
-/**
- *
- * @author Madalina
- */
-public class contact {
-    private String nume, prenume, telefonfix, telefonmobil, email, adresa, oras, judet, codpostal;
-    
-    public contact(String n,String p,String tf,String tm, String e, String a,String o, String j, String c){
+public class Contact {
+    private String nume;
+    private String prenume;
+    private String telefonfix;
+    private String telefonmobil; private String email;
+    private String adresa;
+    private String oras;
+    private String judet;
+    private String codpostal;
+
+    public Contact(String n, String p, String tf, String tm, String e, String a, String o, String j, String c) {
         nume = n;
         prenume = p;
         telefonmobil = tm;
-        telefonfix =tf;
+        telefonfix = tf;
         email = e;
         adresa = a;
         oras = o;
         judet = j;
         codpostal = c;
-        }
-    
-    public String rNume() {return nume;}
-    public String rPrenume() {return prenume;}
-    public String rTelefonfix() { return telefonfix;}
-    public String rTelefonmobil() { return telefonmobil;}
-    public String rEmail() { return email;}
-    public String rAdresa() { return adresa;}
-    public String rOras() { return oras;}
-    public String rJudet() { return judet;}
-    public String rCodpostal() { return codpostal;}
-    
-    public String toString() { 
+    }
+
+    public String rNume() {
+        return nume;
+    }
+
+    public String rPrenume() {
+        return prenume;
+    }
+
+    public String rTelefonfix() {
+        return telefonfix;
+    }
+
+    public String rTelefonmobil() {
+        return telefonmobil;
+    }
+
+    public String rEmail() {
+        return email;
+    }
+
+    public String rAdresa() {
+        return adresa;
+    }
+
+    public String rOras() {
+        return oras;
+    }
+
+    public String rJudet() {
+        return judet;
+    }
+
+    public String rCodpostal() {
+        return codpostal;
+    }
+
+    public String toString() {
         return nume + " " + prenume + " " + telefonfix + " " + " " + telefonmobil + " " + email + " " + adresa + " " + oras + " " + judet + " " + codpostal;
-        }
-    
-    
+    }
+
+
 }
